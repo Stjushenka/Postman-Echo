@@ -9,7 +9,7 @@ branches:
 build: off
 
 install:
-  - accounts.schema.json
+  - skip
 
 build_script:
   -  chmod +x gradlew
