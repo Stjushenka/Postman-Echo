@@ -8,9 +8,6 @@ branches:
 
 build: off
 
-install:
-  - skip
-
 build_script:
-  -  chmod +x gradlew
-  - ./gradlew test --info
+  - chmod +x gradlew
+  - ./gradlew test --info "-Dselenide.headless=true"
